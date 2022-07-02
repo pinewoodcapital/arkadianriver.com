@@ -11,14 +11,15 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: _site name_
-description: _description_
+title: PineWood Capital Management
+description: Invest. Wisely.
+title_2:  
 owner:
-  name: _your name_ # or company name
-  url: "http://example.com" # your URL
-first_published: 2010 # if migrating another site, the year of your first publish
+  name: Pinewood Capital Management # or company name
+  url: "http://pinewoodcapital.github.io" # your URL
+first_published:  # if migrating another site, the year of your first publish
                       # Must be a 4-digit integer year (math is used on it)
-url: "http://example.com" # the base hostname & protocol for this site
+url: "" # the base hostname & protocol for this site
 baseurl: "" # the subpath of your site, e.g. /blog
             # Note you'll have to move your robots.txt to the root if you want it used.
             # And list multiple sitemaps if there are other subdirectories you want indexed
@@ -28,23 +29,36 @@ lang: en-us # used in HTML lang attributes
 # on landing page
 # - set the greeting only if you want to display the first green section
 greeting:
-  title: _Your greeting_  
-  text: _Your detailed greeting text_
+  title: Introducing Pine 
+  text: |
+        "World's first stable crypto-currency backed 100% by the invested capital.
+        PINE paves a way for the general public to have efficient investments.
+
+        How does that work?
+        
+        The capital accumulated in the pool is reinvested in the markets by a team of analysts.
+        So in a summary, 
+        We "Pinewood capital management" are a hedgefund providing asset management to people of all classes through PINE. 
+        PINE is a crypto currency who's value is reflected by the returns of the pool. 
+        That means pine is not only 100% backed by the investment capital but the value of the coin increases as per the pool.
+        This makes the coin extremely reliable and safe compared to all the currencies available in the market. 
+        We envision PINE to be the first widely accepted currency for all digital transactions throughout the world."
+        
 # - displayed at the bottom
-closing-head: _Your closing_
-closing-para: _Your detailed closing_
+closing-head: Contact us
+closing-para: pinewoodcapital.info@gmail.com
 
 # on all pages (and the first three you list display with greeting, if included)
 social:
-  twitter: https://twitter.com/_username_
-  github: https://github.com/_username_
-  linkedin-square: https://linkedin.com/in/_username_
-  facebook-official: https://facebook.com/_username_
+  instagram: https://www.instagram.com/pinewoodcapital 
+  youtube-square: https://www.youtube.com/channel/UCHwu88ffSjVnwH0TSuput7g/featured
+  linkedin-square: https://www.linkedin.com/company/pinewoodcapital
+  facebook-official: 
   #google-plus-square: https://plus.google.com/u/0/+_username_
-  email: /contact/ # you can configure and use this contact page or use your email addy
+  email: pinewoodcapital.info@gmail.com # you can configure and use this contact page or use your email addy
   #flickr:
-  #instagram:
-  #youtube-square:
+  
+  youtube-square:
   #spotify:
   #stack-overflow:
   #vimeo:
@@ -90,10 +104,10 @@ compose:
 
 # choose where to put back and next links:
 # top, bottom, both, none
-navlinks: bottom
+navlinks: none
 
 # expecting more works? mark your list as in-progress
-works_in_progress: yes
+works_in_progress: no
 
 # Github pages posts future posts by default.
 # You'll want to move the user guide posts to _drafts if you set this to true.
